@@ -52,7 +52,7 @@ _PATH="${_DOCROOTPKGBASE}/${arch}/${_VER}"
 ROOTDIR="${_PATH}/${_SLAVELINK}"
 [ ! -h "${ROOTDIR}" ] && ${_MYDIR}/swroot -v ${_VER} -m ${_MASTERLINK}
 
-#cbsd cpr stable=${stable} pause=${_PAUSE} ver=${_VER} new=${_NEW} ccache=0 cdir=${workdir}/tmp/${_MASTERLINK}-${_VER} pkglist=${workdir}/tmp/${_MASTERLINK}-${_VER} pkglist=${_MYDIR}/${_MASTERLINK}.list dstdir=${ROOTDIR} repoversion=${_MASTERLINK} ${MAKECONFARG}
+#echo "cbsd cpr stable=${stable} pause=${_PAUSE} ver=${_VER} new=${_NEW} ccache=1 cdir=${workdir}/tmp/${_MASTERLINK}-${_VER} pkglist=${workdir}/tmp/${_MASTERLINK}-${_VER} pkglist=${_MYDIR}/${_MASTERLINK}.list dstdir=${ROOTDIR} repoversion=${_MASTERLINK} ${MAKECONFARG}"
 cbsd cpr stable=${stable} pause=${_PAUSE} ver=${_VER} new=${_NEW} ccache=1 cdir=${workdir}/tmp/${_MASTERLINK}-${_VER} pkglist=${workdir}/tmp/${_MASTERLINK}-${_VER} pkglist=${_MYDIR}/${_MASTERLINK}.list dstdir=${ROOTDIR} repoversion=${_MASTERLINK} ${MAKECONFARG}
 
 echo "cdir=${workdir}/tmp/${_MASTERLINK}-${_VER} , dstdir=${ROOTDIR} repoversion=${_MASTERLINK}"

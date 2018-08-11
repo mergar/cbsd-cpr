@@ -47,6 +47,7 @@
 /usr/ports/devel/php72-json
 /usr/ports/devel/php72-tokenizer
 /usr/ports/textproc/php72-xsl
+/usr/ports/dns/bind913
 /usr/ports/dns/bind-tools
 /usr/ports/dns/dnsmasq
 /usr/ports/ftp/curl
@@ -62,7 +63,7 @@
 /usr/ports/net/activemq
 /usr/ports/net/csync2
 /usr/ports/net/GeoIP
-/usr/ports/net/isc-dhcp43-server
+/usr/ports/net/isc-dhcp44-server
 /usr/ports/net/php72-ldap
 /usr/ports/net/rsync
 /usr/ports/net/shmux
@@ -122,9 +123,8 @@
 /usr/ports/emulators/fuse
 /usr/ports/lang/gawk
 /usr/ports/sysutils/libchk
-/usr/ports/emulators/xen
-/usr/ports/emulators/xen-kernel
-/usr/ports/sysutils/xen-tools
+/usr/ports/emulators/xen-kernel411
+/usr/ports/sysutils/xen-tools411
 /usr/ports/emulators/qemu-user-static
 /usr/ports/devel/aarch64-binutils
 /usr/ports/net/mtr-nox11
@@ -151,3 +151,9 @@
 /usr/ports/net-p2p/cpuminer
 /usr/ports/net/hping
 /usr/ports/net/trafshow
+/usr/ports/shells/zsh
+/usr/ports/misc/gnu-watch
+/usr/ports/sysutils/bhyve-firmware
+/usr/ports/finance/vanitygen
+/usr/ports/net/ceph
+/usr/ports/archivers/opkg

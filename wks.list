@@ -138,12 +138,19 @@
 /usr/ports/x11/xpra
 /usr/ports/net/freerdp
 /usr/ports/mail/thunderbird
-/usr/ports/print/hplip
+#/usr/ports/print/hplip	# py27 depends  - conflict between py27-qt5-core-5.9.2_6 py36-qt5-core-5.9.2_6
 /usr/ports/deskutils/spice-gtk
 /usr/ports/sysutils/ioping
-/usr/ports/graphics/drm-next-kmod
+/usr/ports/graphics/drm-devel-kmod
 /usr/ports/x11-drivers/xf86-video-qxl
 /usr/ports/x11/qterminal
 /usr/ports/graphics/qgis
 /usr/ports/net-im/telegram-desktop
 /usr/ports/net/wireshark
+/usr/ports/science/kst2
+/usr/ports/multimedia/gtk-recordmydesktop
+/usr/ports/math/gnuplot
+/usr/ports/x11/plasma5-kscreen
+/usr/ports/devel/pcsc-lite
+/usr/ports/finance/electrum
+/usr/ports/x11-drivers/xf86-video-intel
