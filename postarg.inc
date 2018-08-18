@@ -12,4 +12,4 @@ _MYDOCROOT="${_DOCROOTBASE}/${FHIER}"
 _IMGMYDOCROOT="${_IMGDOCROOTBASE}/${FHIER}/${_VER}"
 
 # remote docroot
-_REMOTEDOCROOT="/usr/home/web/dl.bsdstore.ru"
+_REMOTEDOCROOT="/svirt/web/dl.bsdstore.ru"
