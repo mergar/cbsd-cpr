@@ -35,3 +35,6 @@ _PAUSE="0"
 
 # hosts for populate
 _HST="hst1 hst2"
+
+# BATCH by default
+_BATCH="1"
