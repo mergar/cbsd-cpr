@@ -157,3 +157,4 @@
 /usr/ports/net/ceph
 /usr/ports/archivers/opkg-openwrt
 /usr/ports/net/dpdk
+/usr/ports/sysutils/lsyncd
