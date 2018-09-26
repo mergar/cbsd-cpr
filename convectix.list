@@ -48,7 +48,6 @@
 /usr/ports/devel/php72-tokenizer
 /usr/ports/textproc/php72-xsl
 /usr/ports/dns/bind913
-/usr/ports/dns/bind-tools
 /usr/ports/dns/dnsmasq
 /usr/ports/ftp/curl
 /usr/ports/ftp/php72-curl
