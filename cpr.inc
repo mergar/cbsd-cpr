@@ -3,22 +3,22 @@
 arch=`uname -m`
 
 # pkg create docroot
-_DOCROOT="/svirt/web/jb1.olevole.ru/dl.bsdstore.ru/releases"
+_DOCROOT="/nfs/web/dl.bsdstore.ru/releases"
 [ ! -d "${_DOCROOT}" ] && mkdir -p ${_DOCROOT}
 
-_IMGDOCROOT="/svirt/web/jb1.olevole.ru/dl.bsdstore.ru/img"
+_IMGDOCROOT="/nfs/web/dl.bsdstore.ru/img"
 [ ! -d "${_IMGDOCROOT}" ] && mkdir -p ${_IMGDOCROOT}
 
 # base create docroot
-_DOCROOTBASE="/svirt/web/jb1.olevole.ru/dl.bsdstore.ru/releases"
+_DOCROOTBASE="/nfs/web/dl.bsdstore.ru/releases"
 [ ! -d "${_DOCROOTBASE}" ] && mkdir -p ${_DOCROOTBASE}
 
 # base create docroot
-_IMGDOCROOTBASE="/svirt/web/jb1.olevole.ru/dl.bsdstore.ru/img"
+_IMGDOCROOTBASE="/nfs/web/dl.bsdstore.ru/img"
 [ ! -d "${_IMGDOCROOTBASE}" ] && mkdir -p ${_IMGDOCROOTBASE}
 
 # pkg cpr docroot
-_DOCROOTPKGBASE="/svirt/web/jb1.olevole.ru/dl.bsdstore.ru/freebsd"
+_DOCROOTPKGBASE="/nfs/web/dl.bsdstore.ru/freebsd"
 [ ! -d "${_DOCROOTPKGBASE}" ] && mkdir -p ${_DOCROOTPKGBASE}
 
 # default is nox repository

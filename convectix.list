@@ -156,4 +156,5 @@
 /usr/ports/sysutils/bhyve-firmware
 /usr/ports/finance/vanitygen
 /usr/ports/net/ceph
-/usr/ports/archivers/opkg
+/usr/ports/archivers/opkg-openwrt
+/usr/ports/net/dpdk
