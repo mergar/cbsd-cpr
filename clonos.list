@@ -1,6 +1,9 @@
 # must be first
 /usr/ports/security/ca_root_nss
-/usr/ports/lang/php72
+/usr/ports/lang/php73
 /usr/ports/lang/python27
 /usr/ports/www/clonos
 /usr/ports/shells/bash
+/usr/ports/www/nginx
+/usr/ports/sysutils/tmux
+/usr/ports/databases/phpliteadmin
