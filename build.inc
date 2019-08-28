@@ -3,7 +3,7 @@
 workdir=${cbsd_workdir}
 . ${workdir}/nc.inventory
 [ -n "${STABLE}" ] && stable="${STABLE}"
-. ${workdir}/build.subr
-. ${workdir}/universe.subr
+. /usr/local/cbsd/build.subr
+. /usr/local/cbsd/universe.subr
 
 init_target_arch

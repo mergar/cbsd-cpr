@@ -30,4 +30,4 @@ done
 _SLAVELINK="${_MASTERLINK}-slave"
 [ -z "${_VER}" ] && err 1 "Give me version, e.g: -v 11.2"
 _PATH="${_DOCROOTPKGBASE}/${arch}/${_VER}"
-${workdir}/misc/symlink_changer -p ${_PATH} -r "${_MASTERLINK}-1 ${_MASTERLINK}-2" -s ${_SLAVELINK} -m ${_MASTERLINK} -a next
+/usr/local/cbsd/misc/symlink_changer -p ${_PATH} -r "${_MASTERLINK}-1 ${_MASTERLINK}-2" -s ${_SLAVELINK} -m ${_MASTERLINK} -a next
