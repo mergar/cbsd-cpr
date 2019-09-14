@@ -9,6 +9,21 @@ err() {
 	exit $exitval
 }
 
+: ${distdir="/usr/local/cbsd"}
+# MAIN
+if [ -z "${workdir}" ]; then
+	[ -z "${cbsd_workdir}" ] && . /etc/rc.conf
+	[ -z "${cbsd_workdir}" ] && exit 0
+	workdir="${cbsd_workdir}"
+fi
+
+set -e
+. ${workdir}/cmd.subr
+. ${distdir}/cbsd.conf
+. ${distdir}/tools.subr
+. ${subr}
+set +e
+
 _MYDIR=$(dirname `realpath $0`)
 [ ! -f "${_MYDIR}/cpr.inc" ] && err 1 "Missed cpr.inc in ${_MYDIR}"
 . ${_MYDIR}/cpr.inc
